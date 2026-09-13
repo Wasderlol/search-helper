@@ -17,7 +17,7 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 # Argument handling: package name OR .tgz tarball URL
 # ---------------------------------------------------------------------------
-INPUT="${1:-https://github.com/Wasderlol/search-helper/releases/download/Release/web-search-helpers-1.2.0.tgz}"
+INPUT="${1:-https://github.com/Wasderlol/search-helper/releases/download/1.1.0/web-search-helpers-1.2.0.tgz}"
 TARBALL_URL=""
 PACKAGE_VERSION="latest"
 
